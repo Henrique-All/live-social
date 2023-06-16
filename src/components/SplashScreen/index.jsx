@@ -33,7 +33,7 @@ export default function SplashScreen({ navigation }) {
       setIsLoading(true);
     }, 2000);
     setTimeout(() => {
-      navigation.navigate("Home");
+      navigation.navigate("login");
     }, 3000);
   }, []);
 
