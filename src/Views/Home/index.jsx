@@ -1,8 +1,7 @@
-import NavigationBars from "../../routes";
+import NavigationBars from "../../routes/Tabs";
 
-export default function Home() {
-  return (
-    <NavigationBars />
-  )
-
+function Home() {
+  return <NavigationBars />;
 }
+
+export default Home;

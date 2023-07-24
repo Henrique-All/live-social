@@ -1,13 +1,13 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import Search from "../Views/SearchScreen";
+import Search from "../../Views/Home/SearchScreen";
 import { BackHandler } from "react-native";
 import { useEffect } from "react";
-import FeedScreen from "../Views/FeedScreen";
+import FeedScreen from "../../Views/Home/FeedScreen";
 import { Ionicons } from "@expo/vector-icons";
 
 const Tab = createBottomTabNavigator();
 
-export default function NavigationBars() {
+function NavigationBars() {
   useEffect(() => {
     BackHandler.addEventListener("hardwareBackPress", () => {
       return true;
@@ -35,3 +35,5 @@ export default function NavigationBars() {
     </Tab.Navigator>
   );
 }
+
+export default NavigationBars;

@@ -1,10 +1,10 @@
 import { View, ActivityIndicator } from "react-native";
 import * as Animatable from "react-native-animatable";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/Logos/logo.png";
 import { useEffect, useState } from "react";
 import { styles } from "./styles";
 
-export default function SplashScreen({ navigation }) {
+function SplashScreen({ navigation }) {
   const [isLoadin, setIsLoading] = useState(false);
 
   const fadeIn = {
@@ -71,3 +71,5 @@ export default function SplashScreen({ navigation }) {
     </View>
   );
 }
+
+export default SplashScreen;

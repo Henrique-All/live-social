@@ -20,7 +20,7 @@ function LoginPage({ navigation }) {
     <SafeAreaView style={styles.safe}>
       <View style={styles.main}>
         <View style={styles.logo}>
-          <Image source={require("../../../assets/logoComplete.png")} />
+          <Image source={require("../../../assets/Logos/logoComplete.png")} />
         </View>
         <View style={styles.form}>
           <View>
