@@ -1,12 +1,11 @@
 import { Text, View } from "react-native";
 
-function Direct() {
-
+function Profile() {
   return (
     <View>
-      <Text> oi</Text>
+      <Text>Foi</Text>
     </View>
   );
 }
 
-export default Direct;
+export default Profile;
